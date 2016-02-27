@@ -1,6 +1,6 @@
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(filter hammerhead,$(TARGET_DEVICE)),)
+ifeq ($(filter hammerhead bacon,$(TARGET_DEVICE)),)
 include $(CLEAR_VARS)
 
 LOCAL_MODULE := gps.conf
